@@ -28,6 +28,7 @@ const Index = () => {
         >
           <MusicPlayer />
           <HeroSection />
+          <InvitationMessage />
           <DetailsSection />
           <CountdownSection />
           <VenueSection />
