@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import HeroSection from "@/components/HeroSection";
+import InvitationMessage from "@/components/InvitationMessage";
 import DetailsSection from "@/components/DetailsSection";
 import CountdownSection from "@/components/CountdownSection";
 import VenueSection from "@/components/VenueSection";
@@ -27,6 +28,7 @@ const Index = () => {
         >
           <MusicPlayer />
           <HeroSection />
+          <InvitationMessage />
           <DetailsSection />
           <CountdownSection />
           <VenueSection />
